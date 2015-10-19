@@ -1,0 +1,6 @@
+{
+  "name": "pretend-package",
+  "version": "12.2.1-beta",
+  "description": "Pretend package",
+  "main": "index.js"
+}

@@ -4,7 +4,9 @@ var mocha = require('gulp-mocha');
 
 gulp.task('lint', function() {
   return gulp.src(['*.js','./test/**/*.js'])
-		.pipe(jshint())
+		.pipe(jshint({
+      esnext:true
+    }))
 		.pipe(jshint.reporter('jshint-stylish'))
 		.pipe(jshint.reporter('fail'));
 });
