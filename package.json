@@ -4,7 +4,7 @@
   "description": "NPM package semanitic versioning manager",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/gulp/bin/gulp test"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Trioxis/this-npm-semver/issues"
   },
-  "homepage": "https://github.com/Trioxis/this-npm-semver#readme"
+  "homepage": "https://github.com/Trioxis/this-npm-semver#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
