@@ -1,0 +1,23 @@
+{
+  "name": "this-npm-semver",
+  "version": "0.0.1",
+  "description": "NPM package semanitic versioning manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trioxis/this-npm-semver.git"
+  },
+  "keywords": [
+    "semver",
+    "versioning"
+  ],
+  "author": "Trioxis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trioxis/this-npm-semver/issues"
+  },
+  "homepage": "https://github.com/Trioxis/this-npm-semver#readme"
+}
